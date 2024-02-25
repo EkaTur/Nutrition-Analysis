@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-repeat: no repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+    background-color: rgba(13, 43, 25, 0.5);
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    width: 220px;
+    font-size: 18px;
+    box-shadow: inset 0px 0px 0px 2px #1eac41;
+    background-color: rgba(13, 43, 25, 0.5);
+    font-weight: bold;
+    text-align: center;
+    margin-top: -5;
+    color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+    margin-top: 5px;
+    border: 3px solid #1eac42;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgba(13, 43, 25, 0.5);
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.AnalysisContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(13, 43, 25, 0.5);
+    color: #fff;
+}
+
+.parAnalysis {
+    margin: 0;
 }
