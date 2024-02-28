@@ -88,3 +88,14 @@ span {
 .parAnalysis {
     margin: 0;
 }
+
+@media all and (max-width: 800px) {
+    video {
+        display: none;
+    }
+
+    body {
+        background-image: url(./Assets/phonebg.jpg);
+    }
+
+}
