@@ -2,6 +2,10 @@
 
 This React application allows users to analyze the nutritional content of food items. Users can input a list of ingredients, and the application fetches the nutritional details from the Edamam Nutrition Analysis API.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://analysis-nutrition.netlify.app/).
+
 ## Features
 
 - Analyze the nutritional content of food items.
